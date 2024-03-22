@@ -1,0 +1,41 @@
+body{
+    background-image: url(https://img.freepik.com/vector-premium/fondo-patron-costuras-fondo-signos-interrogacion-signo-azul-monocromo_499817-919.jpg);
+}
+h1{
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: crimson;
+    margin-left: 800px;
+    margin-right: 800px;
+}
+h2{
+    text-align: center;
+    position: relative;
+}
+img{
+    width: 500px;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    margin-left: 100px;
+    
+}
+#caida{
+    text-align: center;
+    align-items: center;
+    position: relative;
+
+}
+button{
+    align-items: center;
+    position: relative;
+    margin-left: 900px;
+}
+#burro{
+    text-align: center;
+    align-items: center;
+    position: relative;
+
+} 

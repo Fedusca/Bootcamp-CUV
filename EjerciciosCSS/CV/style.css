@@ -1,0 +1,21 @@
+*{
+    background-color: aquamarine;
+}
+
+h1{
+    text-align: center;
+    position: relative;
+}
+h3{
+    text-align: center;
+    position: relative;
+}
+.header {
+    text-align: center;
+    position: relative;
+    margin: 2px 400px; 
+}
+li{
+    margin: 2px 400px;
+    font-size: 18px;
+}

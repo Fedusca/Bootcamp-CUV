@@ -1,0 +1,24 @@
+#PanArriba {
+    background-color: burlywood;
+    padding: 30px;
+    margin-left: 110px;
+    margin-right: 1330px;
+   border-radius: 50px 50px 20px 20px;
+   border-bottom: 10px solid rgb(187, 135, 71);
+
+}
+#pancho{
+    background-color: brown;
+    padding: 30px;
+    margin-left: 80px;
+    margin-right: 1300px;
+    border-radius: 30px;
+}
+#PanAbajo{
+    background-color: burlywood;
+    padding: 30px;
+    margin-left: 110px;
+    margin-right: 1330px;
+   border-radius: 20px 20px 50px 50px;
+   border-top: 10px solid rgb(187, 135, 71);
+}

@@ -1,0 +1,54 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_1280.png);
+}
+ul{
+    list-style: none;
+}
+ol{
+    list-style: none;
+}
+
+
+.Imp{
+    background-color: red;
+}
+.Reb{
+    background-color: blue;
+}
+#Luke{
+    font-style: italic;
+}
+#Darth{
+    font-size: 30px;
+}
+.Sold{
+    border: 0.1em dashed blue;
+}
+#LiApo{
+    background-color: aquamarine;
+    text-align: center;
+}
+.Apo{
+    text-align: center;
+    background-color: aquamarine;
+    text-transform: uppercase;
+ }
+
+
+.Pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    height: 200px   ;
+    width: auto;
+    
+}
+#Orig{
+    text-transform: uppercase;
+    font-style: initial;
+}
+.Tit{
+    color: chocolate;
+}

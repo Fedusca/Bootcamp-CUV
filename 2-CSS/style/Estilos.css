@@ -1,0 +1,43 @@
+/* 
+Reglas de Estilo:
+
+selector {
+    propiedad1: valor;
+    propiedad2: valor;
+    propiedad3: valor;
+    }
+*/
+
+
+    /* Codigo Hexadecimal = # y 6 caracteres (letras y/o numeros) */
+   
+
+
+div{
+    background-color: rgb(196, 190, 197);
+}
+
+h3{
+    background-color: coral;
+}
+
+div p{
+    font-size: 8px;
+}
+p > span{
+    color: yellow;
+}
+h2:hover{
+    color: blue;
+}
+
+
+/* Clases*/
+.parrafo{
+    border: 0.1em dashed blueviolet;
+}
+
+/* ID*/
+#mi-elemento{
+    padding: 50px;
+}
