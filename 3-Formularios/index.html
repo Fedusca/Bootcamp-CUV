@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+<!--Informacion sensible se carga via Post, si envio archivos uso GET-->
+    <!-- Formularios -->
+    <form action="formulario.php" method="post">
+        <!--Input = Entrada de datos-->
+        <label> Nombre
+            <input id="nombre" type="text" placeholder="Nombre" minlength="3" maxlength="10" name="nombre_usuario">
+        </label>
+         <br>
+        <label >Contraseña
+            <input type="password" placeholder="Password" name="pass_usuario">     
+        </label>
+        <br>
+        <label>Numero
+            <input type="number" step="1"   min="1" max="5" name="edad_usuario">
+        </label>
+         <br>
+        <label>Email
+            <input type="email" placeholder="Email" required name="correo">
+        </label>
+        <br>
+        <label>Fecha
+            <input type="date" name="fecha">
+        </label>
+        <br>
+        <label>Hora
+            <input type="time" name="hora">            
+        </label>
+        <br>
+        <label>Archivo
+            <input type="file" name="Archivo">
+        </label>
+        <br>
+        <label>Color
+            <input type="color" name="color">
+        </label>
+        <br>
+        <label>Textarea:
+            <textarea name=""cols="50" rows="3"></textarea>
+        </label>
+        <br>
+        <input type="checkbox" name="comida"> Asado
+        <br>
+        <input type="checkbox" name="comida"> Milanesa c/pure
+        <br><br>
+        <input type="radio" name="sexo"> Masculino
+        <br>
+        <input type="radio" name="sexo"> Femenino
+        <br>
+        <input type="radio" name="sexo"> Otro
+        <br><br>
+        <input type="button" value="Guardar">
+        <button type="button">Este es un boton</button>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
