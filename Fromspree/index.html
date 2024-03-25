@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rellena tu cv</title>
+</head>
+<body>
+    <h1>Rellena tu CV</h1>
+    
+    <form action="https://formspree.io/f/xrgnyzal" method="post"  enctype="multipart/form-data"> <br><br>
+    <div>
+    
+    <label>Nombre
+        <input type="text" placeholder="nombre" maxlength="30" name="Nombre"> <br><br>
+    </label>   
+    <label>Apellidos
+        <input type="text" placeholder="Apellidos" maxlength="80" name="Apellidos"> <br><br>
+    </label>
+    <label>Contraseña
+        <input type="password" name="Pass_User" placeholder="Password" maxlength="10"> <br><br>
+    </label>
+    <label>DNI
+        <input type="number" name="ID" maxlength="10"> <br><br>
+    </label>
+    <label>Sexo <br>
+        <input type="radio" name="Sexo" value="Masculino"> Masculino <br>
+        <input type="radio" name="Sexo" value="Femenino"> Femenino <br><br>
+    </label>
+    <label> Foto
+        <input type="file" name="File"> <br><br>
+    </label>
+    <label>Suscribirme al Newssellers
+        <input type="checkbox" name="News" checked> <br><br>
+    </label>
+    <input type="submit" Enviar>
+
+    </div>
+</form>
+</body>
+</html>
