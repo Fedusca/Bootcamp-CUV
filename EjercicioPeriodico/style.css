@@ -1,0 +1,15 @@
+.ContenedorNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.Nav{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.Noti{
+    display: flex;
+}
