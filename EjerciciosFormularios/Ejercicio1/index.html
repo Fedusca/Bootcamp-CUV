@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InstaPet</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="ico" href="pets_117585.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+        <h1>InstaPet</h1>
+            <h2>La primera red social de nuestras mascotas!</h2>
+    <div>
+        <img src="Post Instagram Tienda Mascotas Naranja.png" alt="InstaPet">
+    </div>
+    <div class="Forms">
+        <h1>Registra a tu mascota!</h1>
+        <form action="https://formspree.io/f/xrgnyzal" method="post">
+            <Label> Nombre
+                <input type="text" name="Nombre" placeholder="Nombre" maxlength="30" required><br><br>
+            </Label>
+            <label>Edad
+                <input type="number" name="Edad" maxlength="10" placeholder="Edad" required><br><br>
+            </label>
+            <Label>Color de tu mascota
+                <input type="color"required ><br><br>
+            </Label>
+            <label>Tipo de mascota
+                <select name="TipoMascota" required>
+                    <option value="Perro">Perro</option>
+                    <option value="Gato">Gato</option>
+                    <option value="Reptil">Reptil</option>
+                    <option value="Roedor">Roedor</option>
+                    <option value="Exotico">Exotico</option>
+                </select><br><br>
+            </label>
+            <label>Email
+                <input type="email" name="Correo" maxlength="30" placeholder="Email" required><br><br>
+            </label>
+            <label>Password
+                <input type="password" name="Password" maxlength="10" placeholder="Password" required><br><br>
+            </label>
+            <label>Acepto bases y condiciones
+                <input type="checkbox" name="Bases" value="Acepto">
+            </label>
+            <button type="submit">Registrarse</button>
+        </form>
+    </div>
+    
+</body>
+</html>
