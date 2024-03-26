@@ -50,3 +50,10 @@ textarea{
     border: solid 5px coral;
     padding: 5px;
 }
+.If{
+    display: flex;
+    justify-content: space-evenly;
+}
+iframe{
+    border: solid 5px coral;
+}
