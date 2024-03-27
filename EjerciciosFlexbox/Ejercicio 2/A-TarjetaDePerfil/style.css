@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f3f3;
+    
+}
+
+#Tarj {
+    background-color: #fff;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+}
+
+.Pic {
+    width: 100%;
+    
+}
+
+h1, p {
+    margin: 0 0 15px 0;
+}
+
+.Ico img {
+    width: 50px;
+    margin: 0 10px;
+    
+}
