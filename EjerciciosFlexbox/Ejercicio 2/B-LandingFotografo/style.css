@@ -1,0 +1,43 @@
+h1{
+    font-size: 40px;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: unset;
+        text-transform: uppercase;
+        border-bottom: solid 2px red;
+        padding-bottom: 10px;
+        width: 46%;
+}
+.ContenedorNav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(219, 219, 219);
+   
+}
+.Nav{
+    text-align: center;
+    font-size: 50px;
+}
+.NavImg{
+    width: 8%;
+}
+
+.ContenedorGal{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(146, 146, 146);
+}
+.Gal{
+    text-align: center;
+}
+
+.Gallery{
+    width: 500px;
+    height:300px ;
+   
+}
