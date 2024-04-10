@@ -62,11 +62,19 @@ alert("La condicion NO se cumple");
  !condicion1
 */
 
-
+/*
 let numero = prompt ("Ingrese su edad");
 
 alert (typeof numero); //34 (TYPEOF, ME DICE QUE TIPO DE DATO ME TIRA)
 
 parseInt(numero) // parseInt ------> Conviertir un String a un numero entero
 parseFloat("45.9") // parseFloat --> Convierto un String a un numero decimal
+*/
 
+if (condicion1){
+    if (condicion2){
+        algo
+    }
+}else{  
+
+}

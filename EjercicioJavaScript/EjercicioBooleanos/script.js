@@ -25,8 +25,8 @@ parseInt (numero);
 
 if(numero >= 18){
     alert("Usted es mayor de edad, puede consumir alcohol");
-}else alert("Usted es menor de edad, no puede consumir alcohol");
-
-
+}else {
+    alert("Usted es menor de edad, no puede consumir alcohol");
+}
 
 
