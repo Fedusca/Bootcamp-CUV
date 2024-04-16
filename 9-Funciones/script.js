@@ -78,3 +78,21 @@ mostrarResultado (operacion1);
 
 let operacion2 = resta(42, 40);
 mostrarResultado (operacion2);
+
+
+
+//Crear una funcion que reciba 2 parametros (nombre y apellido)
+// y retorne/devuelva el nombre y apellido unidos por una , (Federico, Gomez)
+//Lo muestro en un alert
+
+
+//Declaro una Funcion
+
+function nombreCompleto(nombre, apellido){
+    //forma larga
+    let res = nombre + " , " + apellido;
+    //return res;
+
+    //forma corta
+    return(nombre," , ", apellido);
+}
