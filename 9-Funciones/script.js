@@ -96,3 +96,46 @@ function nombreCompleto(nombre, apellido){
     //forma corta
     return(nombre," , ", apellido);
 }
+
+//  OBJETOS
+//par clave = valor
+//Los objetos llevan clave : valor  Eh: <input type="text"> clave: type, valor : text
+let usuario = {
+//clave : valor
+    nombre:"Federico", 
+    email:"Federico@gmail.com",
+    telefono: 12345678,
+    mayorEdad: true,
+    nacionalidad: "Argentino"
+}
+
+//Para acceder y/o agregar y/o modificar una propiedad/atributo
+//Mostar datos del objeto
+//dot notation (notacion de puntos)
+console.log(usuario.telefono); //Acceso al valor telefono del usuario
+
+//Corchetes
+console.log(usuario["email"]); //Acceso al valor telefono del usuario
+
+usuario.altura = 175; //Agregar el atributo Altura al obj
+usuario["altura"] = 175; //Agregar el atributo Altura al obj
+
+
+//let num = 1; VARIABLE
+
+//let arreglo/array =["h", "f", "t"]; 
+
+//let OBJETO ={
+//     --------------
+//     --------
+//     --------
+//}
+
+//AGREGAR un atributo / propiedad
+usuario.colorOjos = "verdes"; // notacion puntos (dot notation)
+
+usuario["colorOjos"] = "marrones"; // notacion corchetes
+
+//Modificar un atributo o propiedad
+usuario.mayorEdad = false; // notacion de puntos (dot notation)
+usuario["mayorEdad"] = false; // notacion corchetes

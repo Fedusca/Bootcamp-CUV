@@ -11,7 +11,7 @@ let listaNumeros;
 let contador = 0;
 let continuar = true;
 while(continuar){
-    listaNumeros =prompt("Ingrese los numeros a sumar o poner STOP para finalizar");
+    listaNumeros = prompt("Ingrese los numeros a sumar o poner STOP para finalizar");
     if(listaNumeros.toUpperCase() === "STOP" ){
         continuar = false;
     }else{
@@ -20,7 +20,7 @@ while(continuar){
     }
 }
 
-console.log("los numeros ingresados son: " + numero);
+console.log("los numeros ingresados son: " + numero); 
 console.log("La cantidad de numeros ingresados son: " + contador);
 console.log("El numero de la posicion 3 y el ultimo son: " + numero[2] + " y " + numero[numero.length - 1]);
  
