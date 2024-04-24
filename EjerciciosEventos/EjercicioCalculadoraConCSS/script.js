@@ -266,11 +266,11 @@ function calcularResultado() {
     try {
         resultado = eval(expresion); 
         if (isNaN(resultado) || !isFinite(resultado)) {
-            throw new Error("Error en la expresión");
+            throw new Error("Invalido");
         }
         display.value = resultado;
     } catch (error) {
-        alert("Error: " + error.message);
+        display.value = error.message;
     }
 }
 
