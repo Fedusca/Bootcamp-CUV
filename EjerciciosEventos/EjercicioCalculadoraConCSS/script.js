@@ -1,14 +1,4 @@
- let num0 = document.getElementById("0");
- let num1 = document.getElementById("1");
- let num2 = document.getElementById("2");
- let num3 = document.getElementById("3");
- let num4 = document.getElementById("4");
- let num5 = document.getElementById("5");
- let num6 = document.getElementById("6");
- let num7 = document.getElementById("7");
- let num8 = document.getElementById("8");
- let num9 = document.getElementById("9");
-//  let btnSuma = document.getElementById("+");
+ //  let btnSuma = document.getElementById("+");
 //  let btnResta = document.getElementById("-");
 //  let btnMulti = document.getElementById("*");
 //  let btnDiv = document.getElementById("/");
@@ -227,7 +217,16 @@
 //     }
 //     document.getElementById('display').value = resultado;
 //   }
-
+let num0 = document.getElementById("0");
+let num1 = document.getElementById("1");
+let num2 = document.getElementById("2");
+let num3 = document.getElementById("3");
+let num4 = document.getElementById("4");
+let num5 = document.getElementById("5");
+let num6 = document.getElementById("6");
+let num7 = document.getElementById("7");
+let num8 = document.getElementById("8");
+let num9 = document.getElementById("9");
 const display = document.getElementById("display");
 const btnDot = document.getElementById(".");
 const btnClear = document.getElementById("c");
