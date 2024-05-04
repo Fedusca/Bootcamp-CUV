@@ -238,7 +238,12 @@ const btnDiv = document.getElementById("/");
 const btnEqual = document.getElementById("=");
 
 function agregarNumero(valor) {
-    display.value += valor;
+    const lastChar = display.value.slice(-1);
+    const operators = ["+", "-", "*", "/", "."];
+
+    if (!operators.includes(lastChar) || !operators.includes(valor) || !isNaN(valor)) {
+        display.value += valor;
+    }
 }
 
 btnDot.addEventListener('click', () => {
