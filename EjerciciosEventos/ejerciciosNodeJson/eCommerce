@@ -1,0 +1,77 @@
+Construir un ecommerce de productos de tencnologia.
+- la / las colecciones (hasta 10)
+- 2 o 3 ejemplos documentos (de la coleccion de productos)
+
+Collecciones:
+
+Productos
+{
+    "Producto" : "Televisor 50 pulgadas Samsung"
+    "Categoria": "Televisores",
+    "Marca" : "Samsung",
+    "SKU" : "SSG50P",
+    "EAN" : "999999"
+    "Origen" : "Italia",
+    "Stock" : 10,
+    "IdProductos" : 1,
+    "Precio" : 1450,
+
+}
+
+{
+    "Producto" : "Iphone 15 PRO MAX"
+    "Categoria": "Celulares",
+    "Marca" : "Iphone",
+    "SKU" : "APL15PRO",
+    "EAN" : "666666"
+    "Origen" : "ARG",
+    "Stock" : 10,
+    "IdProductos" : 2,
+    "Precio" : 300,
+}
+
+{
+    "Producto" : "Notebook ACER"
+    "Categoria": "Notebooks",
+    "Marca" : "ACER",
+    "SKU" : "ACENOB",
+    "EAN" : "888888"
+    "Origen" : "EEUU",
+    "Stock" : 10,
+    "IdProductos" :3,
+    "Precio" : 1300,
+}
+
+Ventas
+
+
+Clientes
+
+{
+    "Nombre" : "Santino",
+    "Edad" : 25,
+    "Email": "Santino@Santinino.com",
+    "Sexo" : "M",
+    "DNI" : 123456789,
+    "Domicilio" : "Av. Siempre Viva",
+    "Altura" : 142,
+    "Numero Cliente" : 1234,
+    "IdClientes"  : 1,
+}
+
+Compras
+
+
+Proveedores
+{
+    "Marca" : "Samsung",
+    "Producto" : "Televisores",
+    "Vendedor" : "Pedro Picapiedra",
+    "Telefono" : 12345678,
+    "Email" : "PPicapiedra@VentasSamsung.com",
+    "Domicilio deposito" : "Campana",
+    "IdProveedores" : 1,
+
+}
+
+Stock

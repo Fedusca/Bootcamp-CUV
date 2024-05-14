@@ -27,7 +27,7 @@
 //  // tomamos el archivo index.html utilizando el modulo "fs"
 //  let archivoHtml = fs.createReadStream(__dirname + '/index.html');
 
-//  //Enviamos el archivo como parte de la respuesta / response
+//  //Enviamos el archivo como parte de la respuesta/ response
 //  archivoHtml.pipe(res);
 
  
@@ -100,4 +100,8 @@ app.get("/hola", function (req, res) {
     res.send("Holaaa"); //enviamos la respuesta
   });
 
-  
+  //Ejercicio: Crear una ruta que reciba 2 parametros y sean gustos de helados
+// Como respuesta el servidor debera mostrar "Mi helado favorito es de XXXXX y XXXXXX"
+
+
+//contraseña MONGO : del1al9

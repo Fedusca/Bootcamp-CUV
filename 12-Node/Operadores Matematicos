@@ -1,0 +1,76 @@
+// Operadores Matematicos
+
+// $eq : igual que  (equal)
+// $ne : distinto que (not equal)
+// $gt : mayor que (greater than)
+// $gte : mayor o igual que (greater than or equal)
+// $lt : menor que (lower than)
+// $lte : menor o igual que (lower than or equal)
+// $exists : saber si existe o no un campo ( ej: {email: { $exist: true}} )
+
+// CONSULTAS son en formato JSON ------> {clave : valor}
+
+// Ejemplo
+// Buscar entre todos los documentos de una coleccion, el/los personajes que el nombre sea igual a "Homero Simpson"
+
+// {clave   :     valor     }
+
+// {nombre : "Homero Simpson"}
+
+// {nombre : {$eq: "Homero Simpson"}}
+
+// Buscar aquellos personajes que su edad es mayor o igual a 25
+
+// {edad {$gte: 25}}
+
+// Buscar aquellos personajes que sean solteros
+
+// {soltero{$eq: false}}
+// {soltero{$ne: true}}
+
+// Busacar los documentos con el apellido distinto de Lopez
+
+// {apellido:{$ne: "Lopez"}}
+
+// Buscar aquellos documentos donde exista el dato email
+
+// {email: { $exist: true}}
+
+
+// OPERADORES LOGICOS (and y or)
+
+// AND 
+// (RESUMIDA)
+// { clave: valor, clave: valor }
+
+// Busco los documentos que cumplan con las condiciones: nombre = "Juan" y edad = 18
+
+// { nombre: "Juan", edad:18  }
+
+// Buscar los documentos con nombre Juan y edad menor o igual a 20
+// { nombre: Juan", edad: { $lte:20 } } 
+
+
+// or
+// { $or: [{ condicion1 },{ condicion2 },{ condicion3 }] }
+
+// Buscar documentos que nombre sea Juan ó edad sea mayor a 25
+
+// { $or: [ { nombre: "Juan"}, {edad:{$gt:25 } } ] }
+
+
+// --------------------------------------
+
+
+// REGEX (Regular expresion)
+
+// buscar la palabra "la" dentro del campo nombre
+
+// {nombre: {$regex: /la/ }} -----------> Busca la palabra "la" en campo nombre
+
+//{nombre: {$regex: /la$/ }}-------------> Busca la palabra "la" al final del campo nombre
+
+//{nombre: {$regex: /^la/ }} -------------> Busca la palabra "la" al comienzo del campo nombre
+
+//{nomnre: {$regex: /la/i }}-------------> Agregandole "i"No interesa si es mayuscula o minuscula
+
